@@ -1,0 +1,42 @@
+.movie_card {
+    background-color: rgb(45, 8, 8);
+    height: 32rem;
+    width: 17rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card_img {
+    height: 25rem;
+    object-fit: cover;
+}
+.movie_img {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom {
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    margin-top: 2rem;
+    height: 10%;
+}
+.bottom h4 {
+    padding-left: 1rem;
+    margin-top: -1rem;
+}
+.bottom button {
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.genre {
+    margin-left: 1rem;
+    opacity: 0.7;
+}
